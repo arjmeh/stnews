@@ -9,8 +9,8 @@
 <body>
     <script>
         function hacked() {
-            alert("hacked hehehe");
             document.write('you got hacked and now i have your password and username hahahahaha');
+            alert("hacked hehehe");    
         }
     </script>
     <h1 style="font-size: 4rem; margin-left: 40px;">stnews  -  the worlds greatest news station</h1>
@@ -29,7 +29,7 @@
     </div>
     <div class="signin">
         <h2>sign in for moneyyyyzzzz</h2>
-        <form action="hacked()">
+        <form onsubmit="hacked()">
         <input type="text" placeholder="username">
         <br>
         <input type="password" placeholder="password">
